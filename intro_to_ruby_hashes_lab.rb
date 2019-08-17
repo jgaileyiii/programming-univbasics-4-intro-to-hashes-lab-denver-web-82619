@@ -19,7 +19,7 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-  read_from_hash = ({key => value} key)
+  read_from_hash = ({key => value})
 puts read_from_hash 
   end
 
