@@ -19,11 +19,8 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-  if hash
-    puts key
-  else 
-    puts nil 
-  end
+  read_from_hash = key[hash]
+  puts key
 end
  
  
