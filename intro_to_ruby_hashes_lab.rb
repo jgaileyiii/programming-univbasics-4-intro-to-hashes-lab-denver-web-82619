@@ -20,7 +20,6 @@ end
 
 def read_from_hash(hash, key)
   read_from_hash = {:key => hash}
-  puts hash
 end
 
 def update_counting_hash(hash, key)
