@@ -24,6 +24,7 @@ def read_from_hash(hash, key)
   else 
     puts nil 
   end
+end
  
  
 def update_counting_hash(hash, key)
