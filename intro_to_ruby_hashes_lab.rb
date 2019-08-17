@@ -20,7 +20,7 @@ end
 
 def read_from_hash(hash, key)
   value = []
-  read_from_hash = (hash, :key => value)
+  read_from_hash = (hash, {:key => value})
   puts read_from_hash
   end
 
